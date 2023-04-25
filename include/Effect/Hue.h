@@ -3,10 +3,13 @@
 
 #include "Effect.h"
 
-namespace ysImageProcessing {
-	namespace Effect {
+namespace ysImageProcessing
+{
+	namespace Effect
+	{
 
-		class Hue : public Effect {
+		class Hue : public Effect
+		{
 		protected:
 			bool m_colorize = true;
 			float m_angle = 0.0f;
@@ -16,12 +19,12 @@ namespace ysImageProcessing {
 			Hue(ysImage *t_image);
 
 			bool isColorize() const;
-			void setColorize(const bool& t_colorize);
+			void setColorize(const bool &t_colorize);
 
 			float getAngle() const;
-			void setAngle(const float& t_angle);
+			void setAngle(const float &t_angle);
 
-			void filter(const int& t_x, const int& t_y, Color::RGB* t_color) override;
+			void filter(const int &t_x, const int &t_y, Color::RGB *t_color) override;
 
 			virtual ~Hue();
 		};

@@ -1,15 +1,18 @@
 #ifndef COLOR_H
 #define COLOR_H
 
-namespace ysImageProcessing {
-	namespace Color {
+namespace ysImageProcessing
+{
+	namespace Color
+	{
 
 		class RGB;
 
-		class Color {
+		class Color
+		{
 		public:
 			Color() = default;
-			virtual RGB* toRGB() = 0;
+			virtual RGB *toRGB() = 0;
 		};
 
 	}

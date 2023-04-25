@@ -1,28 +1,47 @@
 #include "./ConvolutionFilter/SoftenFilter.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
 
-		std::string SoftenFilter::filterName() {
+		std::string SoftenFilter::filterName()
+		{
 			return "SoftenFilter";
 		}
 
-		float SoftenFilter::factor() {
+		float SoftenFilter::factor()
+		{
 			return 1.0f / 8.0f;
 		}
 
-		float SoftenFilter::bias() {
+		float SoftenFilter::bias()
+		{
 			return 0.0f;
 		}
 
-		std::vector<std::vector<float> > SoftenFilter::filterMatrix() {
+		std::vector<std::vector<float>> SoftenFilter::filterMatrix()
+		{
 			return {
-				{ 1, 1, 1,},
-				{ 1, 1, 1,},
-				{ 1, 1, 1,}};
+					{
+							1,
+							1,
+							1,
+					},
+					{
+							1,
+							1,
+							1,
+					},
+					{
+							1,
+							1,
+							1,
+					}};
 		}
 
-		SoftenFilter::~SoftenFilter() {
+		SoftenFilter::~SoftenFilter()
+		{
 		}
 
 	}

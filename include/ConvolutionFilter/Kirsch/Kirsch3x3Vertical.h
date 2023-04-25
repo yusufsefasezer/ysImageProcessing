@@ -3,17 +3,21 @@
 
 #include "../ConvolutionFilter.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
-		namespace Kirsch {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
+		namespace Kirsch
+		{
 
-			class Kirsch3x3Vertical : public ConvolutionFilter {
+			class Kirsch3x3Vertical : public ConvolutionFilter
+			{
 			public:
 				Kirsch3x3Vertical() = default;
 				std::string filterName() override;
 				float factor() override;
 				float bias() override;
-				std::vector<std::vector<float> > filterMatrix() override;
+				std::vector<std::vector<float>> filterMatrix() override;
 				virtual ~Kirsch3x3Vertical();
 			};
 

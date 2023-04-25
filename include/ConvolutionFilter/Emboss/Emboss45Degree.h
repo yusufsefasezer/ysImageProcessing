@@ -3,21 +3,26 @@
 
 #include "../ConvolutionFilter.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
-		namespace Emboss {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
+		namespace Emboss
+		{
 
-			class Emboss45Degree : public ConvolutionFilter {
+			class Emboss45Degree : public ConvolutionFilter
+			{
 			public:
 				Emboss45Degree() = default;
 				std::string filterName() override;
 				float factor() override;
 				float bias() override;
-				std::vector<std::vector<float> > filterMatrix() override;
+				std::vector<std::vector<float>> filterMatrix() override;
 				virtual ~Emboss45Degree();
 			};
 
 		}
 	}
 }
+
 #endif /* EMBOSS45DEGREE_H */

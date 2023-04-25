@@ -4,21 +4,23 @@
 #include <string>
 #include <vector>
 
-using namespace std;
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
-
-		class ConvolutionFilter {
+		class ConvolutionFilter
+		{
 		public:
 			ConvolutionFilter() = default;
 			virtual std::string filterName() = 0;
 			virtual float factor() = 0;
 			virtual float bias() = 0;
 			virtual std::vector<std::vector<float>> filterMatrix() = 0;
-			//virtual ~Filter();
+			// virtual ~Filter();
 		};
 
 	}
 }
+
 #endif /* CONVOLUTIONFILTER_H */

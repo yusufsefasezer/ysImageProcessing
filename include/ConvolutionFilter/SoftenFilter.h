@@ -3,16 +3,19 @@
 
 #include "ConvolutionFilter.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
 
-		class SoftenFilter : public ConvolutionFilter {
+		class SoftenFilter : public ConvolutionFilter
+		{
 		public:
 			SoftenFilter() = default;
 			std::string filterName() override;
 			float factor() override;
 			float bias() override;
-			std::vector<std::vector<float> > filterMatrix() override;
+			std::vector<std::vector<float>> filterMatrix() override;
 			virtual ~SoftenFilter();
 		};
 

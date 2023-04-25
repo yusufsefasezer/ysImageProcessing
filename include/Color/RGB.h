@@ -5,10 +5,13 @@
 #include <cmath>
 #include <algorithm>
 
-namespace ysImageProcessing {
-	namespace Color {
+namespace ysImageProcessing
+{
+	namespace Color
+	{
 
-		class RGB : public Color {
+		class RGB : public Color
+		{
 		protected:
 			int m_r = 0;
 			int m_g = 0;
@@ -36,10 +39,10 @@ namespace ysImageProcessing {
 			int clampValue(const int &t_value, const int &t_min, const int &t_max);
 
 			// toRGB
-			RGB* toRGB() override;
+			RGB *toRGB() override;
 
 			// Color Temperature
-			static RGB* colorTemperature(const float& t_value);
+			static RGB *colorTemperature(const float &t_value);
 
 			virtual ~RGB();
 		};

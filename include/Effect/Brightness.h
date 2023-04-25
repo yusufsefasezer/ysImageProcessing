@@ -3,10 +3,13 @@
 
 #include "Effect.h"
 
-namespace ysImageProcessing {
-	namespace Effect {
+namespace ysImageProcessing
+{
+	namespace Effect
+	{
 
-		class Brightness : public Effect {
+		class Brightness : public Effect
+		{
 		protected:
 			float m_amount = 1.0f;
 
@@ -15,13 +18,14 @@ namespace ysImageProcessing {
 			Brightness(ysImage *t_image);
 
 			float getAmount() const;
-			void setAmount(const float& t_amount);
+			void setAmount(const float &t_amount);
 
-			void filter(const int& t_x, const int& t_y, Color::RGB* t_color) override;
+			void filter(const int &t_x, const int &t_y, Color::RGB *t_color) override;
 
 			virtual ~Brightness();
 		};
 
 	}
 }
+
 #endif /* BRIGHTNESS_H */

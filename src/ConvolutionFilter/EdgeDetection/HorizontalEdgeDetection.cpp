@@ -1,31 +1,69 @@
 #include "./ConvolutionFilter/EdgeDetection/HorizontalEdgeDetection.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
-		namespace EdgeDetection {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
+		namespace EdgeDetection
+		{
 
-			std::string HorizontalEdgeDetection::filterName() {
+			std::string HorizontalEdgeDetection::filterName()
+			{
 				return "HorizontalEdgeDetection";
 			}
 
-			float HorizontalEdgeDetection::factor() {
+			float HorizontalEdgeDetection::factor()
+			{
 				return 1.0f;
 			}
 
-			float HorizontalEdgeDetection::bias() {
+			float HorizontalEdgeDetection::bias()
+			{
 				return 0.0f;
 			}
 
-			std::vector<std::vector<float> > HorizontalEdgeDetection::filterMatrix() {
+			std::vector<std::vector<float>> HorizontalEdgeDetection::filterMatrix()
+			{
 				return {
-					{ 0, 0, 0, 0, 0,},
-					{ 0, 0, 0, 0, 0,},
-					{ -1, -1, 2, 0, 0,},
-					{ 0, 0, 0, 0, 0,},
-					{ 0, 0, 0, 0, 0,}};
+						{
+								0,
+								0,
+								0,
+								0,
+								0,
+						},
+						{
+								0,
+								0,
+								0,
+								0,
+								0,
+						},
+						{
+								-1,
+								-1,
+								2,
+								0,
+								0,
+						},
+						{
+								0,
+								0,
+								0,
+								0,
+								0,
+						},
+						{
+								0,
+								0,
+								0,
+								0,
+								0,
+						}};
 			}
 
-			HorizontalEdgeDetection::~HorizontalEdgeDetection() {
+			HorizontalEdgeDetection::~HorizontalEdgeDetection()
+			{
 			}
 
 		}

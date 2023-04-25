@@ -2,13 +2,10 @@
 #include "ysImage.h"
 #include "Effect/Greyscale.h"
 
-using namespace std;
-using namespace ysImageProcessing;
-using namespace ysImageProcessing::Effect;
-
-int main(int argc, char** argv) {
-
-	try {
+int main(int argc, char const *argv[])
+{
+	try
+	{
 
 		ysImage *resim = new ysImage("files/yusuf-sezer.jpg");
 
@@ -20,9 +17,10 @@ int main(int argc, char** argv) {
 
 		delete filter;
 		delete resim;
-
-	} catch (std::exception &e) {
-		cerr << e.what();
+	}
+	catch (std::exception &e)
+	{
+		std::cerr << e.what();
 	}
 
 	return 0;

@@ -3,10 +3,13 @@
 
 #include "Effect.h"
 
-namespace ysImageProcessing {
-	namespace Effect {
+namespace ysImageProcessing
+{
+	namespace Effect
+	{
 
-		class Greyscale : public Effect {
+		class Greyscale : public Effect
+		{
 		protected:
 			float m_amount = 0.5f;
 
@@ -15,9 +18,9 @@ namespace ysImageProcessing {
 			Greyscale(ysImage *t_image);
 
 			float getAmount() const;
-			void setAmount(const float& t_amount);
+			void setAmount(const float &t_amount);
 
-			void filter(const int& t_x, const int& t_y, Color::RGB* t_color) override;
+			void filter(const int &t_x, const int &t_y, Color::RGB *t_color) override;
 
 			virtual ~Greyscale();
 		};

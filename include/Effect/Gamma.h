@@ -3,10 +3,13 @@
 
 #include "Effect.h"
 
-namespace ysImageProcessing {
-	namespace Effect {
+namespace ysImageProcessing
+{
+	namespace Effect
+	{
 
-		class Gamma : public Effect {
+		class Gamma : public Effect
+		{
 		protected:
 			float m_gamma = 1.0f;
 
@@ -15,9 +18,9 @@ namespace ysImageProcessing {
 			Gamma(ysImage *t_image);
 
 			float getGamma() const;
-			void setGamma(const float& t_gamma);
+			void setGamma(const float &t_gamma);
 
-			void filter(const int& t_x, const int& t_y, Color::RGB* t_color) override;
+			void filter(const int &t_x, const int &t_y, Color::RGB *t_color) override;
 
 			virtual ~Gamma();
 		};

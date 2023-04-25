@@ -1,20 +1,26 @@
 #include "Effect/Invert.h"
 
-namespace ysImageProcessing {
-	namespace Effect {
+namespace ysImageProcessing
+{
+	namespace Effect
+	{
 
-		Invert::Invert(ysImage* t_image) : Effect(t_image) {
+		Invert::Invert(ysImage *t_image) : Effect(t_image)
+		{
 		}
 
-		float Invert::getAmount() const {
+		float Invert::getAmount() const
+		{
 			return m_amount;
 		}
 
-		void Invert::setAmount(const float& t_amount) {
+		void Invert::setAmount(const float &t_amount)
+		{
 			this->m_amount = t_amount;
 		}
 
-		void Invert::filter(const int& t_x, const int& t_y, Color::RGB* t_color) {
+		void Invert::filter(const int &t_x, const int &t_y, Color::RGB *t_color)
+		{
 			int nr, ng, nb;
 			nr = ng = nb = 0;
 
@@ -27,7 +33,8 @@ namespace ysImageProcessing {
 			t_color->setB(t_color->clampValue(nb));
 		}
 
-		Invert::~Invert() {
+		Invert::~Invert()
+		{
 		}
 
 	}

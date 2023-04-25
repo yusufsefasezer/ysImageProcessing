@@ -1,29 +1,49 @@
 #include "./ConvolutionFilter/Sharpen/SharpenFilter.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
-		namespace Sharpen {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
+		namespace Sharpen
+		{
 
-			std::string SharpenFilter::filterName() {
+			std::string SharpenFilter::filterName()
+			{
 				return "SharpenFilter";
 			}
 
-			float SharpenFilter::factor() {
+			float SharpenFilter::factor()
+			{
 				return 1.0f;
 			}
 
-			float SharpenFilter::bias() {
+			float SharpenFilter::bias()
+			{
 				return 0.0f;
 			}
 
-			std::vector<std::vector<float> > SharpenFilter::filterMatrix() {
+			std::vector<std::vector<float>> SharpenFilter::filterMatrix()
+			{
 				return {
-					{ -1, -1, -1,},
-					{ -1, 9, -1,},
-					{ -1, -1, -1,}};
+						{
+								-1,
+								-1,
+								-1,
+						},
+						{
+								-1,
+								9,
+								-1,
+						},
+						{
+								-1,
+								-1,
+								-1,
+						}};
 			}
 
-			SharpenFilter::~SharpenFilter() {
+			SharpenFilter::~SharpenFilter()
+			{
 			}
 
 		}

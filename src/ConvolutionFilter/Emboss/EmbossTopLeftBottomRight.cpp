@@ -1,29 +1,49 @@
 #include "./ConvolutionFilter/Emboss/EmbossTopLeftBottomRight.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
-		namespace Emboss {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
+		namespace Emboss
+		{
 
-			std::string EmbossTopLeftBottomRight::filterName() {
+			std::string EmbossTopLeftBottomRight::filterName()
+			{
 				return "EmbossTopLeftBottomRight";
 			}
 
-			float EmbossTopLeftBottomRight::factor() {
+			float EmbossTopLeftBottomRight::factor()
+			{
 				return 1.0f;
 			}
 
-			float EmbossTopLeftBottomRight::bias() {
+			float EmbossTopLeftBottomRight::bias()
+			{
 				return 128.0f;
 			}
 
-			std::vector<std::vector<float> > EmbossTopLeftBottomRight::filterMatrix() {
+			std::vector<std::vector<float>> EmbossTopLeftBottomRight::filterMatrix()
+			{
 				return {
-					{ -1, 0, 0,},
-					{ 0, 0, 0,},
-					{ 0, 0, 1,}};
+						{
+								-1,
+								0,
+								0,
+						},
+						{
+								0,
+								0,
+								0,
+						},
+						{
+								0,
+								0,
+								1,
+						}};
 			}
 
-			EmbossTopLeftBottomRight::~EmbossTopLeftBottomRight() {
+			EmbossTopLeftBottomRight::~EmbossTopLeftBottomRight()
+			{
 			}
 
 		}

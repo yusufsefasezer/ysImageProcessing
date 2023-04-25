@@ -3,17 +3,21 @@
 
 #include "../ConvolutionFilter.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
-		namespace Sharpen {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
+		namespace Sharpen
+		{
 
-			class IntenseSharpen : public ConvolutionFilter {
+			class IntenseSharpen : public ConvolutionFilter
+			{
 			public:
 				IntenseSharpen() = default;
 				std::string filterName() override;
 				float factor() override;
 				float bias() override;
-				std::vector<std::vector<float> > filterMatrix() override;
+				std::vector<std::vector<float>> filterMatrix() override;
 				virtual ~IntenseSharpen();
 			};
 

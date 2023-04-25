@@ -3,17 +3,21 @@
 
 #include "../ConvolutionFilter.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
-		namespace Sobel {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
+		namespace Sobel
+		{
 
-			class Sobel3x3Vertical : public ConvolutionFilter {
+			class Sobel3x3Vertical : public ConvolutionFilter
+			{
 			public:
 				Sobel3x3Vertical() = default;
 				std::string filterName() override;
 				float factor() override;
 				float bias() override;
-				std::vector<std::vector<float> > filterMatrix() override;
+				std::vector<std::vector<float>> filterMatrix() override;
 				virtual ~Sobel3x3Vertical();
 			};
 

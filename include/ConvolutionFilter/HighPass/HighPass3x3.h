@@ -3,17 +3,21 @@
 
 #include "../ConvolutionFilter.h"
 
-namespace ysImageProcessing {
-	namespace ConvolutionFilter {
-		namespace HighPass {
+namespace ysImageProcessing
+{
+	namespace ConvolutionFilter
+	{
+		namespace HighPass
+		{
 
-			class HighPass3x3 : public ConvolutionFilter {
+			class HighPass3x3 : public ConvolutionFilter
+			{
 			public:
 				HighPass3x3() = default;
 				std::string filterName() override;
 				float factor() override;
 				float bias() override;
-				std::vector<std::vector<float> > filterMatrix() override;
+				std::vector<std::vector<float>> filterMatrix() override;
 				virtual ~HighPass3x3();
 			};
 
