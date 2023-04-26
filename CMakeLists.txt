@@ -80,4 +80,4 @@ install(TARGETS ysImageProcessing
 
 install(DIRECTORY ${CMAKE_SOURCE_DIR}/include/ DESTINATION include)
 
-# add_subdirectory(examples)
+add_subdirectory(examples)
