@@ -8,6 +8,15 @@ A simple Image Processing library developed with Modern C++.
 
 </div>
 
+## How to compile and run example
+
+```sh
+ cmake .
+ cmake --build .
+cd examples/
+./ysImageProcessing_example
+```
+
 ## TODO
 - [ ] Color
   - [ ] CMYK
