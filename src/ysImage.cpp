@@ -216,7 +216,14 @@ namespace ysImageProcessing
 	ysImage::~ysImage()
 	{
 		gdImageDestroy(m_image);
-		fclose(m_fpin);
-		fclose(m_fpout);
+		if (m_fpin == nullptr)
+		{
+			fclose(m_fpin);
+		}
+
+		if (m_fpin == nullptr)
+		{
+			fclose(m_fpout);
+		}
 	}
 }

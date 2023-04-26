@@ -14,4 +14,5 @@ find_library(ysImageProcessing libysImageProcessing.so)
 set(SOURCES main.cpp)
 
 add_executable(ysImageProcessing_example ${SOURCES})
+
 target_link_libraries(ysImageProcessing_example PRIVATE ${ysImageProcessing})
