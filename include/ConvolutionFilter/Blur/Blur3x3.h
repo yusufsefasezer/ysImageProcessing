@@ -1,7 +1,7 @@
 #ifndef BLUR3X3_H
 #define BLUR3X3_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

@@ -1,4 +1,4 @@
-#include "./ConvolutionFilter/EdgeDetection/HorizontalEdgeDetection.h"
+#include <./ConvolutionFilter/EdgeDetection/HorizontalEdgeDetection.h>
 
 namespace ysImageProcessing
 {

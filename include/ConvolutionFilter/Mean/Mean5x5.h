@@ -1,7 +1,7 @@
 #ifndef MEAN5X5_H
 #define MEAN5X5_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

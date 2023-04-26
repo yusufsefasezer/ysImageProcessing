@@ -1,7 +1,7 @@
 #ifndef KIRSCH3X3VERTICAL_H
 #define KIRSCH3X3VERTICAL_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

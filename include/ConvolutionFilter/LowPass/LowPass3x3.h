@@ -1,7 +1,7 @@
 #ifndef LOWPASS3X3_H
 #define LOWPASS3X3_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

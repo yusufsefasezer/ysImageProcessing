@@ -1,4 +1,4 @@
-#include "ysImage.h"
+#include <ysImage.h>
 
 namespace ysImageProcessing
 {

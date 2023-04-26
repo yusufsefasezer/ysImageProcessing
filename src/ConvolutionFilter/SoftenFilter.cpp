@@ -1,4 +1,4 @@
-#include "./ConvolutionFilter/SoftenFilter.h"
+#include <./ConvolutionFilter/SoftenFilter.h>
 
 namespace ysImageProcessing
 {

@@ -72,6 +72,8 @@ set(SOURCES
 
 add_library(ysImageProcessing SHARED ${SOURCES})
 
+target_link_libraries(${PROJECT_NAME} ${GD_LIBRARIES})
+
 install(TARGETS ysImageProcessing
 				LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
 				PUBLIC_HEADER DESTINATION ${CMAKE_INSTALL_INCLUDEDIR})
@@ -132,3 +134,5 @@ install(FILES include/Color/RGB.h
 							include/ConvolutionFilter/SoftenFilter.h
 							include/ConvolutionFilter/HighPass/HighPass3x3.h 
 							DESTINATION include)
+
+add_subdirectory(examples)

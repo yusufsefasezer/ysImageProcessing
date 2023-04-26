@@ -1,7 +1,7 @@
 #ifndef GREYSCALE_H
 #define GREYSCALE_H
 
-#include "Effect.h"
+#include <Effect.h>
 
 namespace ysImageProcessing
 {

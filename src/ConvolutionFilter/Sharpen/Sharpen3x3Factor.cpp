@@ -1,4 +1,4 @@
-#include "./ConvolutionFilter/Sharpen/Sharpen3x3Factor.h"
+#include <./ConvolutionFilter/Sharpen/Sharpen3x3Factor.h>
 
 namespace ysImageProcessing
 {

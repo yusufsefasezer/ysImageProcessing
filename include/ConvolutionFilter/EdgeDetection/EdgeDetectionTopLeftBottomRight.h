@@ -1,7 +1,7 @@
 #ifndef EDGEDETECTIONTOPLEFTBOTTOMRIGHT_H
 #define EDGEDETECTIONTOPLEFTBOTTOMRIGHT_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

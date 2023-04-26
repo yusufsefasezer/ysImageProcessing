@@ -1,7 +1,7 @@
 #ifndef LAPLACIANOFGAUSSIAN_H
 #define LAPLACIANOFGAUSSIAN_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

@@ -1,4 +1,4 @@
-#include "ConvolutionFilter/HighPass/HighPass3x3.h"
+#include <ConvolutionFilter/HighPass/HighPass3x3.h>
 
 namespace ysImageProcessing
 {

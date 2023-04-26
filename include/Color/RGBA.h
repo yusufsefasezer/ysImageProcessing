@@ -1,7 +1,7 @@
 #ifndef RGBA_H
 #define RGBA_H
 
-#include "RGB.h"
+#include <RGB.h>
 
 namespace ysImageProcessing
 {

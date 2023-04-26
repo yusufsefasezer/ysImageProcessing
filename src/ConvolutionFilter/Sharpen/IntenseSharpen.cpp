@@ -1,4 +1,4 @@
-#include "ConvolutionFilter/Sharpen/IntenseSharpen.h"
+#include <ConvolutionFilter/Sharpen/IntenseSharpen.h>
 
 namespace ysImageProcessing
 {

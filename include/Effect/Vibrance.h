@@ -1,7 +1,7 @@
 #ifndef VIBRANCE_H
 #define VIBRANCE_H
 
-#include "Effect.h"
+#include <Effect.h>
 #include <algorithm>
 
 namespace ysImageProcessing

@@ -1,7 +1,7 @@
 #ifndef INTENSESHARPEN_H
 #define INTENSESHARPEN_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

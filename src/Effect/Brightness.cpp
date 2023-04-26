@@ -1,4 +1,4 @@
-#include "Effect/Brightness.h"
+#include <Effect/Brightness.h>
 
 namespace ysImageProcessing
 {

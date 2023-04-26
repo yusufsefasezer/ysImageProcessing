@@ -1,7 +1,7 @@
 #ifndef HUE_H
 #define HUE_H
 
-#include "Effect.h"
+#include <Effect.h>
 
 namespace ysImageProcessing
 {

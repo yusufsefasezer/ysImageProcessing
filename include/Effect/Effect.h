@@ -1,8 +1,8 @@
 #ifndef EFFECT_H
 #define EFFECT_H
 
-#include "ysImage.h"
-#include "Color/RGBA.h"
+#include <ysImage.h>
+#include <Color/RGBA.h>
 
 namespace ysImageProcessing
 {

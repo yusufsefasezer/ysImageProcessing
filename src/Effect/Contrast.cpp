@@ -1,4 +1,4 @@
-#include "Effect/Contrast.h"
+#include <Effect/Contrast.h>
 
 namespace ysImageProcessing
 {

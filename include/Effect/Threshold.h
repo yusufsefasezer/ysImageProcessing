@@ -1,7 +1,7 @@
 #ifndef THRESHOLD_H
 #define THRESHOLD_H
 
-#include "Effect.h"
+#include <Effect.h>
 
 namespace ysImageProcessing
 {

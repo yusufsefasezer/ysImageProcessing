@@ -1,7 +1,7 @@
 #ifndef SOFTENFILTER_H
 #define SOFTENFILTER_H
 
-#include "ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

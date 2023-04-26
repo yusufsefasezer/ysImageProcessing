@@ -1,7 +1,7 @@
 #ifndef GAUSSIAN7X7_H
 #define GAUSSIAN7X7_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

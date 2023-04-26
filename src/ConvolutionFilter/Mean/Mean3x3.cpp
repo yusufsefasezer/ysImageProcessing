@@ -1,4 +1,4 @@
-#include "./ConvolutionFilter/Mean/Mean3x3.h"
+#include <./ConvolutionFilter/Mean/Mean3x3.h>
 
 namespace ysImageProcessing
 {

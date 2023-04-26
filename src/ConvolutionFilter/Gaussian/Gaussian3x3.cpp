@@ -1,4 +1,4 @@
-#include "./ConvolutionFilter/Gaussian/Gaussian3x3.h"
+#include <./ConvolutionFilter/Gaussian/Gaussian3x3.h>
 
 namespace ysImageProcessing
 {

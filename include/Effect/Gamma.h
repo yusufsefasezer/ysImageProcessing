@@ -1,7 +1,7 @@
 #ifndef GAMMA_H
 #define GAMMA_H
 
-#include "Effect.h"
+#include <Effect.h>
 
 namespace ysImageProcessing
 {

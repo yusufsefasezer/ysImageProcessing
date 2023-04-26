@@ -1,7 +1,7 @@
 #ifndef EMBOSS_H
 #define EMBOSS_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

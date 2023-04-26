@@ -1,7 +1,7 @@
 #ifndef BRIGHTNESS_H
 #define BRIGHTNESS_H
 
-#include "Effect.h"
+#include <Effect.h>
 
 namespace ysImageProcessing
 {

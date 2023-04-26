@@ -1,7 +1,7 @@
 #ifndef EMBOSS45DEGREE_H
 #define EMBOSS45DEGREE_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

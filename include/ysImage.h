@@ -5,7 +5,7 @@
 #include <stdexcept>
 #include <gd.h>
 
-#include "Color/RGB.h"
+#include <Color/RGB.h>
 
 namespace ysImageProcessing
 {

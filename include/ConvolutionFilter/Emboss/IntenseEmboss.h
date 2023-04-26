@@ -1,7 +1,7 @@
 #ifndef INTENSEEMBOSS_H
 #define INTENSEEMBOSS_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

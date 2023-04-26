@@ -1,7 +1,7 @@
 #ifndef MOTIONBLURRIGHTTOLEFT_H
 #define MOTIONBLURRIGHTTOLEFT_H
 
-#include "../../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

@@ -1,4 +1,4 @@
-#include "Effect/Gamma.h"
+#include <Effect/Gamma.h>
 
 namespace ysImageProcessing
 {

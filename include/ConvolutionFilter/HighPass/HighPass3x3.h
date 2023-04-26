@@ -1,7 +1,7 @@
 #ifndef HIGHPASS3X3_H
 #define HIGHPASS3X3_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

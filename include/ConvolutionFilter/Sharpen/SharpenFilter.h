@@ -1,7 +1,7 @@
 #ifndef SHARPENFILTER_H
 #define SHARPENFILTER_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

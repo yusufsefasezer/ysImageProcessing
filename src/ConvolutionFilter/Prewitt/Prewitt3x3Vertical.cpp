@@ -1,4 +1,4 @@
-#include "./ConvolutionFilter/Prewitt/Prewitt3x3Vertical.h"
+#include <./ConvolutionFilter/Prewitt/Prewitt3x3Vertical.h>
 
 namespace ysImageProcessing
 {

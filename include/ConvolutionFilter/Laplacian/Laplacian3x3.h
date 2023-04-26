@@ -1,7 +1,7 @@
 #ifndef LAPLACIAN3X3_H
 #define LAPLACIAN3X3_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

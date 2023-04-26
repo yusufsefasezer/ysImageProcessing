@@ -1,7 +1,7 @@
 #ifndef EMBOSSTOPLEFTBOTTOMRIGHT_H
 #define EMBOSSTOPLEFTBOTTOMRIGHT_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

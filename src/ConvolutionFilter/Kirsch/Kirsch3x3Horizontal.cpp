@@ -1,4 +1,4 @@
-#include "ConvolutionFilter/Kirsch/Kirsch3x3Horizontal.h"
+#include <ConvolutionFilter/Kirsch/Kirsch3x3Horizontal.h>
 
 namespace ysImageProcessing
 {

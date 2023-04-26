@@ -1,4 +1,4 @@
-#include "./ConvolutionFilter/Gaussian/Gaussian5x5.h"
+#include <./ConvolutionFilter/Gaussian/Gaussian5x5.h>
 
 namespace ysImageProcessing
 {

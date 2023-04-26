@@ -1,7 +1,7 @@
 #ifndef RGB_H
 #define RGB_H
 
-#include "Color.h"
+#include <Color.h>
 #include <cmath>
 #include <algorithm>
 

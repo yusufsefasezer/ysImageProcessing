@@ -1,7 +1,7 @@
 #ifndef HORIZONTALEDGEDETECTION_H
 #define HORIZONTALEDGEDETECTION_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

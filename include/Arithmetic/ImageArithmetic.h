@@ -1,7 +1,7 @@
 #ifndef IMAGEARITHMETIC_H
 #define IMAGEARITHMETIC_H
 
-#include "ysImage.h"
+#include <ysImage.h>
 
 namespace ysImageProcessing
 {

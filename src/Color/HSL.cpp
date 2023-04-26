@@ -1,7 +1,7 @@
 #include <cstdio>
 
-#include "Color/HSL.h"
-#include "Color/RGB.h"
+#include <Color/HSL.h>
+#include <Color/RGB.h>
 
 namespace ysImageProcessing
 {

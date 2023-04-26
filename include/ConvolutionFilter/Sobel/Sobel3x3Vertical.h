@@ -1,7 +1,7 @@
 #ifndef SOBEL3X3VERTICAL_H
 #define SOBEL3X3VERTICAL_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

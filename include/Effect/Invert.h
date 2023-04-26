@@ -1,7 +1,7 @@
 #ifndef INVERT_H
 #define INVERT_H
 
-#include "Effect.h"
+#include <Effect.h>
 
 namespace ysImageProcessing
 {

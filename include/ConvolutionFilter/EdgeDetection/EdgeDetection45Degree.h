@@ -1,7 +1,7 @@
 #ifndef EDGEDETECTION45DEGREE_H
 #define EDGEDETECTION45DEGREE_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

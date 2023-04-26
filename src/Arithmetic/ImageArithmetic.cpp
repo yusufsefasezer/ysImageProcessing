@@ -1,4 +1,4 @@
-#include "Arithmetic/ImageArithmetic.h"
+#include <Arithmetic/ImageArithmetic.h>
 
 namespace ysImageProcessing
 {

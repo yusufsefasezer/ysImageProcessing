@@ -1,4 +1,4 @@
-#include "./ConvolutionFilter/Laplacian/LaplacianOfGaussian.h"
+#include <./ConvolutionFilter/Laplacian/LaplacianOfGaussian.h>
 
 namespace ysImageProcessing
 {

@@ -1,4 +1,4 @@
-#include "ConvolutionFilter/Blur/MotionBlur/MotionBlurRightToLeft.h"
+#include <ConvolutionFilter/Blur/MotionBlur/MotionBlurRightToLeft.h>
 
 namespace ysImageProcessing
 {

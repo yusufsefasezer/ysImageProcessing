@@ -7,9 +7,9 @@ int main(int argc, char const *argv[])
 	try
 	{
 
-		ysImage *resim = new ysImage("files/yusuf-sezer.jpg");
+		ysImageProcessing::ysImage *resim = new ysImageProcessing::ysImage("files/yusuf-sezer.jpg");
 
-		Greyscale *filter = new Greyscale(resim);
+		ysImageProcessing::Effect::Greyscale *filter = new ysImageProcessing::Effect::Greyscale(resim);
 		filter->setAmount(1.0f);
 		filter->apply();
 

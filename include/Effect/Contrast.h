@@ -2,7 +2,7 @@
 #define CONTRAST_H
 
 #include <cmath>
-#include "Effect.h"
+#include <Effect.h>
 
 namespace ysImageProcessing
 {

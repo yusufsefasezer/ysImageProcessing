@@ -1,7 +1,7 @@
 #ifndef PREWITT3X3HORIZONTAL_H
 #define PREWITT3X3HORIZONTAL_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

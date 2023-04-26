@@ -1,7 +1,7 @@
 #ifndef MOTIONBLUR_H
 #define MOTIONBLUR_H
 
-#include "../../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

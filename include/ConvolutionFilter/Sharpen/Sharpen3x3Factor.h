@@ -1,7 +1,7 @@
 #ifndef SHARPEN3X3FACTOR_H
 #define SHARPEN3X3FACTOR_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

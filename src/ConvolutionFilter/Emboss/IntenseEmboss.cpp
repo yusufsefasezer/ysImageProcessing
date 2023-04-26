@@ -1,4 +1,4 @@
-#include "ConvolutionFilter/Emboss/IntenseEmboss.h"
+#include <ConvolutionFilter/Emboss/IntenseEmboss.h>
 
 namespace ysImageProcessing
 {

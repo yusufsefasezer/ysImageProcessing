@@ -1,7 +1,7 @@
 #ifndef LAPLACIAN5X5_H
 #define LAPLACIAN5X5_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

@@ -1,7 +1,7 @@
 #ifndef VERTICALEDGEDETECTION_H
 #define VERTICALEDGEDETECTION_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

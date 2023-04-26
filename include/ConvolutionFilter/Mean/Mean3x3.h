@@ -1,7 +1,7 @@
 #ifndef MEAN3X3_H
 #define MEAN3X3_H
 
-#include "../ConvolutionFilter.h"
+#include <ConvolutionFilter.h>
 
 namespace ysImageProcessing
 {

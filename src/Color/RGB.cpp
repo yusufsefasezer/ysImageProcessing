@@ -1,6 +1,6 @@
 #include <cstdio>
 
-#include "Color/RGB.h"
+#include <Color/RGB.h>
 
 namespace ysImageProcessing
 {

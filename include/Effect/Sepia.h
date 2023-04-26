@@ -1,7 +1,7 @@
 #ifndef SEPIA_H
 #define SEPIA_H
 
-#include "Effect.h"
+#include <Effect.h>
 
 namespace ysImageProcessing
 {

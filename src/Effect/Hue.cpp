@@ -1,5 +1,5 @@
-#include "Effect/Hue.h"
-#include "Color/HSL.h"
+#include <Effect/Hue.h>
+#include <Color/HSL.h>
 
 namespace ysImageProcessing
 {

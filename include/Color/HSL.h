@@ -1,7 +1,7 @@
 #ifndef HSL_H
 #define HSL_H
 
-#include "Color.h"
+#include <Color.h>
 #include <algorithm>
 #include <cmath>
 
